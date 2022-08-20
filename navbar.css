@@ -1,0 +1,99 @@
+body{
+    font-family: 'lato' sans-serif;
+    background-color: maroon;
+    margin: 10px;
+    }
+
+.CCA{
+     display:flex;
+     justify-content: center;
+     color: chocolate;
+     font-style: oblique;
+    font-size: 50px;
+
+    position:sticky;
+    top:0;
+    }
+
+    
+        nav {
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 10px;
+            font-style: oblique;
+        }
+        
+        nav .onglet{
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin: 5;
+        }
+        
+        nav .onglet a{
+        margin-top: 0px;
+        margin: 20px;
+        cursor: pointer;
+        background-color: chocolate;
+        width: 120px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: solid white;
+       
+        }
+        
+
+
+        .buttons{
+            display:flex;
+        }
+
+
+        nav .buttons a{
+            margin-top: 0px;
+            margin: 20px;
+            cursor: pointer;
+            background-color: chocolate;
+            width: 120px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border: solid white;
+           
+            }
+
+       
+        
+         
+        nav .buttons .login{
+        background-color: chocolate;
+        margin-right: 10px;
+        color:black;
+        font-style: oblique;
+        cursor: pointer;
+    
+        }
+        
+        nav .buttons .register{
+        background-color: chocolate;
+        margin-right: 10px;
+        color:black;
+        font-style:oblique;
+        cursor: pointer;
+       
+        }
+        
+
+
+
+
+   
+    
+   
